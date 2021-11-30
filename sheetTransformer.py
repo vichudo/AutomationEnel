@@ -15,7 +15,7 @@ if uploaded_file is not None:
     df = pd.read_excel(uploaded_file)
     df_ = df[df['Estado'] ==
              '7 - Requiere que devuelvan el llamado (marco 5)']
-    st.table(df_)
+    st.write(df_)
     #st.download_button("Descargar", df_.to_excel("Final.xls"))
 
     # df_.to_excel(
