@@ -1,1 +1,1 @@
-worker: streamlit run sheetTransformer.py
+web: sh setup.sh && streamlit run
